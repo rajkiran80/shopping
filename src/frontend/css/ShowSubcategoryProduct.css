@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.show-sub-catg-product-container{
+    width:90%;
+    margin: 60px auto 10px auto;
+}
+@media only screen and (max-width:700px){
+    .show-sub-catg-product-container{
+        width:95%;
+        margin: 60px auto 10px auto;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .show-sub-catg-product-container{
+        width:100%;
+        margin: 60px auto 10px auto;
+    }
+}

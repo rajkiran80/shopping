@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.categoryContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:90%;
+    margin-top:70px;
+}
+.categoryContainer a{
+    color:white;
+}
