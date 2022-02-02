@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/shopping/static/css/main.67df1e01.css",
+    "main.js": "/shopping/static/js/main.2d9738de.js",
+    "static/media/beauty.jpg": "/shopping/static/media/beauty.228accf1b6b2ee273332.jpg",
+    "static/media/kids.jpg": "/shopping/static/media/kids.446e106fd5dff96f4250.jpg",
+    "static/media/one.webp": "/shopping/static/media/one.475aee69785f1d46c1c6.webp",
+    "static/media/three.webp": "/shopping/static/media/three.9fc6e9251468960f5a71.webp",
+    "static/media/two.webp": "/shopping/static/media/two.1ad180a785748119fdbe.webp",
+    "static/media/womens.jfif": "/shopping/static/media/womens.4df91f55bfdeb8707dc5.jfif",
+    "static/media/jeans.jfif": "/shopping/static/media/jeans.af319fb829a362b472cd.jfif",
+    "static/media/mens.jfif": "/shopping/static/media/mens.9bd69bbdd86063141c07.jfif",
+    "static/media/shirts.jfif": "/shopping/static/media/shirts.924292fe79864660e721.jfif",
+    "static/media/tshirts.jfif": "/shopping/static/media/tshirts.b0b037da72850d0a65b8.jfif",
+    "static/media/formal-shirts.jfif": "/shopping/static/media/formal-shirts.9051cd48f715771741eb.jfif",
+    "index.html": "/shopping/index.html",
+    "main.67df1e01.css.map": "/shopping/static/css/main.67df1e01.css.map",
+    "main.2d9738de.js.map": "/shopping/static/js/main.2d9738de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67df1e01.css",
+    "static/js/main.2d9738de.js"
+  ]
+}
