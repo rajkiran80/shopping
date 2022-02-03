@@ -6,6 +6,7 @@ import Navbar from './frontend/Navbar'
 import Cart from './frontend/Cart'
 import ShowSubCategoryProduct from './frontend/ShowSubCategoryProduct'
 import ProductDetails from './frontend/ProductDetails'
+import Canva from './Canva'
 
 function App() {
   return(
@@ -13,11 +14,12 @@ function App() {
          <Router>
               <Navbar/>
             <Routes>
-                <Route path="/" element={<HomePage/>}/>
+                <Route path="/shopping" element={<HomePage/>}/>
                 <Route path="/subcategory/:id/*" element={<SubCategory/>}/>
                 <Route path="/cart" element={<Cart/>}/>
                 <Route path="/products/:catgid/:subcatgId/" element={<ShowSubCategoryProduct/>}/>
                 <Route path="/product-details/:pid/:catId/:subCatId/:sizeIntStr" element={<ProductDetails/>}/>
+                <Route path="/shopping/canva" element={<Canva/>}/>
             </Routes>
          </Router>
     </div>

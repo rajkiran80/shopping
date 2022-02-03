@@ -8,7 +8,6 @@ import Paper from '@mui/material/Paper'
 import Button from '@mui/material/Button'
 import {Link} from 'react-router-dom'
 import Grid from '@mui/material/Grid'
-import One from './images/subcategoryImages/jeans.jfif'
 import ALLPRODUCTS from './Json/AllProductsJSON'
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -30,7 +29,7 @@ const Cards=(props)=>{
                                                         <CardMedia
                                                                     component="img"
                                                                     height="140"
-                                                                    image={item.img}
+                                                                    image={process.env.PUBLIC_URL+item.img}
                                                         />
                                                         <CardContent>
                                                                 <Typography gutterBottom variant="h5" component="div">

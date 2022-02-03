@@ -14,7 +14,7 @@ const CART=()=>{
                 store.getState().allProductsId.map((item)=>{
                     return  <div className='card'>
                                 <div className='img-title'>
-                                    <div className='img'><img src={item.img}/></div>
+                                    <div className='img'><img src={process.env.PUBLIC_URL+item.img}/></div>
                                     <div className='title'><h3>{item.title}</h3></div>
                                 </div>
                                 <div className='price-incre-decre'>

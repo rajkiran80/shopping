@@ -2,21 +2,21 @@ const ALLPRODUCTS={
     //catg id
     1:{
         //corresponding subcategory products of a category size:1==>integer size size:2==>string size
-        1:[{id:1,type:"TopWear",name:"Hrx by Hrithik Roshan",size:1,price:499,img:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1700944/2019/6/8/972c9498-3a37-4d5d-976c-4493b4d5c0021559989322793-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--1.jpg"},
-           {id:2,type:"TopWear",name:"Calvein Klein Jeans",size:2,price:1599,img:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14590956/2021/7/8/67183ba8-548f-481c-90ab-21dae7e24c051625743506152-Calvin-Klein-Jeans-Men-Tshirts-3061625743505657-1.jpg"},
-           {id:3,type:"TopWear",name:"Moda Rapido",size:1,price:899,img:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2221318/2017/12/6/11512544982707-Moda-Rapido-Men-Maroon-Colourblocked-Round-Neck-T-shirt-4391512544982619-3.jpg"}
+        1:[{id:1,type:"TopWear",name:"Hrx by Hrithik Roshan",size:1,price:499,img:"/images/hrxtshirt.webp"},
+           {id:2,type:"TopWear",name:"Roadster Tshirt",size:2,price:1599,img:"/images/rdstertshirt.webp"},
+           {id:3,type:"TopWear",name:"Moda Rapido",size:1,price:899,img:"/images/levitshirt.webp"}
         ],
-        2:[{id:4,type:"TopWear",name:"Dennis Lingo",size:1,price:499,img:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/7488102/2019/8/22/8002a744-0dad-4dbb-9481-cf0090134c3b1566454086786-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-1.jpg"},
-           {id:5,type:"TopWear",name:"Highlander",size:1,price:1599,img:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2347551/2019/12/3/fb88c67b-d735-48cc-8554-9374a95ba35b1575363237983-HIGHLANDER-Men-White--Light-Blue-Slim-Fit-Striped-Casual-Shi-1.jpg"},
-           {id:6,type:"TopWear",name:"Locomotive",size:1,price:899,img:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2041656/2019/3/15/2af990cf-2130-4921-a76e-fc785780a7b71552651215713-HIGHLANDER-Men-White-Slim-Fit-Solid-Casual-Shirt-86155265121-1.jpg"}
+        2:[{id:4,type:"TopWear",name:"Dennis Lingo",size:1,price:499,img:"/images/cshirt1.webp"},
+           {id:5,type:"TopWear",name:"Highlander",size:1,price:1599,img:"/images/cshirt2.webp"},
+           {id:6,type:"TopWear",name:"Locomotive",size:1,price:899,img:"/images/cshirt3.webp"}
         ],
-        3:[{id:7,type:"TopWear",name:"Raymond",size:1,price:499,img:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16070530/2021/12/7/eebece5d-e9b8-4388-b9b9-19a316b6bc3d1638861329151-Raymond-Men-Shirts-5801638861328641-1.jpg"},
-           {id:8,type:"TopWear",name:"Louis Philippe",size:1,price:1599,img:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14598456/2021/7/1/f06e9d4b-6d22-4195-b543-ca014369d6ea1625132485130-Louis-Philippe-Men-Shirts-7441625132484641-1.jpg"},
-           {id:9,type:"TopWear",name:"Dennison",size:1,price:899,img:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11530474/2020/3/2/20f7e2ea-7097-4f60-8af0-89928de666641583151745381-DENNISON-Men-Blue-Comfort-Regular-Fit-Solid-Formal-Shirt-346-1.jpg"}
+        3:[{id:7,type:"TopWear",name:"Raymond",size:1,price:499,img:"/images/fshirt1.webp"},
+           {id:8,type:"TopWear",name:"Louis Philippe",size:1,price:1599,img:"/images/fshirt2.webp"},
+           {id:9,type:"TopWear",name:"Dennison",size:1,price:899,img:"/images/fshirt3.webp"}
         ],
-        4:[{id:10,type:"BottomWear",name:"HERE&NOW",size:1,price:579,img:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11739156/2020/9/10/e5133322-8837-41be-8859-b3f75d54eeb41599723147559-HERENOW-Men-Black-Slim-Fit-Mid-Rise-Clean-Look-Stretchable-J-1.jpg"},
-           {id:11,type:"BottomWear",name:"Roadster",size:1,price:1599,img:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13866444/2021/7/27/6e3c4c66-940b-4b8e-a7d0-e8c6aa05aa7d1627362946064-Roadster-Men-Jeans-291627362945269-1.jpg"},
-           {id:12,type:"BottomWear",name:"WROGN",size:1,price:899,img:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10619774/2019/12/11/99468c19-4544-4172-99e4-b73c9cc9a29a1576042762435-HERENOW-Men-Jeans-8841576042757041-1.jpg"}
+        4:[{id:10,type:"BottomWear",name:"HERE&NOW",size:1,price:579,img:"/images/jeans1.webp"},
+           {id:11,type:"BottomWear",name:"Roadster",size:1,price:1599,img:"/images/jeans2.webp"},
+           {id:12,type:"BottomWear",name:"WROGN",size:1,price:899,img:"/images/jeans3.webp"}
         ]
       },
       2:{

@@ -12,7 +12,7 @@ const Navbar=()=>{
      return(
          <div className="navbar-container">
              <div className="nav-container-child">
-                  <div className='brand'><h4><Link to="/">ShopCart</Link></h4></div>
+                  <div className='brand'><h4><Link to="/shopping">ShopCart</Link></h4></div>
                   <div className='search-cart-icon'>
                        <div className='search'></div>
                        <div className='cart'><Link to="/cart">{<AddShoppingCartIcon/>}</Link> {cartSize}</div>

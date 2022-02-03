@@ -91,13 +91,13 @@ const ProductDetails=()=>{
              }
       })
      return(
-         <div className="product-details-container">
+          <div className="product-details-container">
                {
                     AllProductsJSON[catID][subCatID].map((prod)=>{
                       return prod.id == prodID && 
                                 <div className='img-title-size-price-addProd'>
                                      <div className='img'>
-                                          <img src={prod.img}/>
+                                          <img src={process.env.PUBLIC_URL+prod.img}/>
                                      </div>
                                      <div className='title'>
                                           <h3>{prod.name}</h3>
@@ -119,7 +119,7 @@ const ProductDetails=()=>{
                                 </div>
                     })
                }
-         </div>
+          </div>
      )
 }
 export default ProductDetails

@@ -1,21 +1,16 @@
-import FormalShirts from '../images/subcategoryImages/formal-shirts.jfif'
-import Jeans from '../images/subcategoryImages/jeans.jfif'
-import Shirts from '../images/subcategoryImages/shirts.jfif'
-import Tshirts from '../images/subcategoryImages/tshirts.jfif'
-
 const SUB_CATEGORY=new Map([
    //subcategory name of corresponding category
      [1,[{
-           id:1,type:"TopWear",name:"T-shirts",img:Tshirts
+           id:1,type:"TopWear",name:"T-shirts",img:'/images/tshirts.jfif'
         },
         {
-           id:2,type:"TopWear",name:"Casual Shirts",img:Shirts
+           id:2,type:"TopWear",name:"Casual Shirts",img:'/images/shirts.jfif'
         },
         {
-           id:3,type:"TopWear",name:"Formal Shirts",img:FormalShirts 
+           id:3,type:"TopWear",name:"Formal Shirts",img:'/images/formal-shirts.jfif'
         },
         {
-           id:4,type:"BottomWear",name:"Jeans",img:Jeans
+           id:4,type:"BottomWear",name:"Jeans",img:'/images/jeans.jfif'
         }]
      ],
      [2,[{

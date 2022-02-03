@@ -20,7 +20,7 @@ const ShowAllSubCategory=()=>{
                       subcategoryAllData.map((subcategory)=>{
                          return <Link to={"/products/"+getCateGoryId+"/"+subcategory.id}>
                                     <div className="eachSubCategory" key={subcategory.id}>
-                                        <div className='img'><img src={subcategory.img}/></div>
+                                        <div className='img'><img src={process.env.PUBLIC_URL+subcategory.img}/></div>
                                         <div className='title'><p>{subcategory.name}</p></div>
                                     </div>
                                  </Link>

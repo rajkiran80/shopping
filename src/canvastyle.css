@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.canva-container{
+    width:96%;
+    height: calc(100% - 100px);
+    background-color: aliceblue;
+    position: absolute;
+    left: calc(50% - 48%);
+    top:calc(70px);
+}
+.canva{
+    width:100%;
+    height: 100%;
+}
