@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopping/static/css/main.fa105e75.css",
-    "main.js": "/shopping/static/js/main.c181be5a.js",
+    "main.css": "/shopping/static/css/main.e0f5506c.css",
+    "main.js": "/shopping/static/js/main.a20da061.js",
     "static/media/beauty.jpg": "/shopping/static/media/beauty.228accf1b6b2ee273332.jpg",
     "static/media/kids.jpg": "/shopping/static/media/kids.446e106fd5dff96f4250.jpg",
     "static/media/one.webp": "/shopping/static/media/one.475aee69785f1d46c1c6.webp",
@@ -10,11 +10,11 @@
     "static/media/womens.jfif": "/shopping/static/media/womens.4df91f55bfdeb8707dc5.jfif",
     "static/media/mens.jfif": "/shopping/static/media/mens.9bd69bbdd86063141c07.jfif",
     "index.html": "/shopping/index.html",
-    "main.fa105e75.css.map": "/shopping/static/css/main.fa105e75.css.map",
-    "main.c181be5a.js.map": "/shopping/static/js/main.c181be5a.js.map"
+    "main.e0f5506c.css.map": "/shopping/static/css/main.e0f5506c.css.map",
+    "main.a20da061.js.map": "/shopping/static/js/main.a20da061.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa105e75.css",
-    "static/js/main.c181be5a.js"
+    "static/css/main.e0f5506c.css",
+    "static/js/main.a20da061.js"
   ]
 }
